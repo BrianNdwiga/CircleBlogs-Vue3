@@ -42,7 +42,7 @@ export default {
   computed:{
     editPost(){
       return this.$store.state.editPost;
-    }
+    },
   }
 };
 </script>

@@ -303,6 +303,10 @@ export default {
         align-self: center;
       }
     }
+             @media screen and (min-width: 0px) and (max-width: 450px) {
+  .blog-info { display: initial; }  /* show it on small screens */
+  input{ padding-bottom: 12px;}
+}
   }
   .editor {
     margin-top: 20px;
@@ -331,5 +335,7 @@ export default {
       margin-right: 16px;
     }
   }
+
 }
+
 </style>
